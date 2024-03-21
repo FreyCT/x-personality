@@ -1,24 +1,23 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import axios from 'axios';
 
 const Questions = () => {
 
-    const { id } = useParams();
     const [question, setquestion] = useState();
-
-
+    const [questions, setquestions] = useState();
     
     useEffect(() => {
         (async () => {
-
+            const questions = await axios.get("//localhost:8088/questions");
+            setquestions(questions.data)
+            console.log(questions);
+            setquestion({...questions.data[0]});
         })()
-    }, [id]);
+    }, [questions]);
 
-
-
-    return true && (
-        <div>
-           
+    return question && (
+        <div className='question-container'>
+            <p>{`${question.question}`}</p>
         </div>
     )
 }

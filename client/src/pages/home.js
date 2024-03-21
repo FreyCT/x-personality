@@ -1,20 +1,21 @@
+import axios from 'axios';
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
 
 const Home = () => {
 
-    // const { id } = useParams();
-    // const [question, setquestion] = useState();
+    const [images, setImages] = useState();
     
-    // useEffect(() => {
-    //     (async () => {
-
-    //     })()
-    // }, [id]);
+    useEffect(() => {
+        (async () => {
+            const res = await axios.get('//localhost:8088/images');
+            setImages(res.data);
+        })()
+    }, [images]);
 
     return true && (
+
         <div>
-           
+            {/* {images.map(image => <ImageCard><ImageCard/>)} */}
         </div>
     )
 }
