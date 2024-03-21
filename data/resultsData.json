@@ -1,0 +1,277 @@
+{
+    "traits": {
+        "Extraversion vs. Introversion": {
+            "Extraversion": "Someone who prefers socializing in large groups, feels energized by social interactions, and initiates conversations with new people.",
+            "Introversion": "Someone who prefers spending time alone, feels drained by social interactions, and is more reserved in initiating conversations."
+        },
+        "Sensing vs. Intuition": {
+            "Sensing": "Someone who focuses on details, trusts gut instincts, and prefers concrete experiences.",
+            "Intuition": "Someone who enjoys exploring abstract concepts, trusts intuition, and is more focused on the big picture."
+        },
+        "Thinking vs. Feeling": {
+            "Thinking": "Someone who prioritizes logical reasoning, analyzes situations objectively, and bases decisions on facts.",
+            "Feeling": "Someone who considers people's feelings, offers advice based on emotions, and finds it challenging to express emotions verbally."
+        },
+        "Judging vs. Perceiving": {
+            "Judging": "Someone who prefers following a strict schedule, is organized and methodical, enjoys making plans, and may feel uncomfortable with last-minute changes.",
+            "Perceiving": "Someone who keeps options open, is comfortable with spontaneity, and adaptable to last-minute changes."
+        }
+    },
+    "mbti": [
+        {
+            "type": "ENFJ",
+            "description": "The Teacher - ENFJs are charismatic leaders who are driven by their passion for helping others and making a positive difference in the world. They are empathetic and inspiring individuals who excel in guiding and motivating others towards personal growth.",
+            "strengths": [
+                "Charismatic",
+                "Empathetic",
+                "Inspiring"
+            ],
+            "weaknesses": [
+                "Overly Idealistic",
+                "Self-sacrice"
+            ],
+            "characterName": "Professor X",
+            "imageURL": "http//localhost:8088/ENFJ.png"
+        },
+        {
+            "type": "ENTJ",
+            "description": "The Commander - ENTJs are strategic leaders who are driven by their ambition and desire to achieve their goals. They are decisive and assertive individuals who excel in leading and organizing others towards success.",
+            "strengths": [
+                "Decisive",
+                "Strategic",
+                "Assertive"
+            ],
+            "weaknesses": [
+                "Stubborn",
+                "Intolerant",
+                "Impatient"
+            ],
+            "characterName": "Bishop",
+            "imageURL": "http//localhost:8088/ENTJ.png"
+        },
+        {
+            "type": "ESFJ",
+            "description": "The Provider - ESFJs are warm-hearted caretakers who are driven by their sense of duty and loyalty to others. They are sociable and empathetic individuals who thrive in nurturing roles and value harmony and cooperation.",
+            "strengths": [
+                "Warm",
+                "Empathetic",
+                "Conscientious"
+            ],
+            "weaknesses": [
+                "Overly Sacrificial",
+                "Overly Sensitive",
+                "Clingy"
+            ],
+            "characterName": "Ice Man",
+            "imageURL": "http//localhost:8088/ESFJ.png"
+        },
+        {
+            "type": "ESTJ",
+            "description": "The Supervisor - ESTJs are hardworking organizers who are driven to enforce order and structure in their environment. They are practical and responsible leaders who value tradition and respect for authority.",
+            "strengths": [
+                "Dutiful",
+                "Responsible",
+                "Organized"
+            ],
+            "weaknesses": [
+                "Inflexible",
+                "Judgmental",
+                "Impatient"
+            ],
+            "characterName": "Morph",
+            "imageURL": "http//localhost:8088/ESTJ.png"
+        },
+        {
+            "type": "INFJ",
+            "description": "The Advocate - INFJs are gentle, caring, and complex individuals who are driven by their deeply-held principles to make a difference in the world. They are insightful and imaginative and strive for harmony and personal growth.",
+            "strengths": [
+                "Insightful",
+                "Compassionate",
+                "Empathetic"
+            ],
+            "weaknesses": [
+                "Sensitive",
+                "Perfectionist",
+                "Reserved"
+            ],
+            "characterName": "Jean Grey",
+            "imageURL": "http//localhost:8088/INFJ.png"
+        },
+        {
+            "type": "INTJ",
+            "description": "The Architect - INTJs are innovative strategists with a desire for knowledge and a talent for understanding complex systems. They are independent, original thinkers who are driven to improve and reform systems and institutions for the better.",
+            "strengths": [
+                "Independent",
+                "Visionary",
+                "Logical"
+            ],
+            "weaknesses": [
+                "Arrogant",
+                "Insensitive",
+                "Overly Critical"
+            ],
+            "characterName": "Magneto",
+            "imageURL": "http//localhost:8088/INTJ.png"
+        },
+        {
+            "type": "ISFJ",
+            "description": "The Protector - ISFJs are industrious caretakers, loyal to traditions and organizations. They are practical, compassionate, and caring, and are motivated to provide for others and protect them from harm.",
+            "strengths": [
+                "Warm",
+                "Conscientious",
+                "Reliable"
+            ],
+            "weaknesses": [
+                "Humble",
+                "Overly Selfless",
+                "Repressed"
+            ],
+            "characterName": "Storm",
+            "imageURL": "http//localhost:8088/ISFJ.png"
+        },
+        {
+            "type": "ISTJ",
+            "description": "The Inspector - ISTJs are responsible organizers, driven to create and enforce order within systems and institutions. They are traditional and value loyalty, hard work, and dependability.",
+            "strengths": [
+                "Honest",
+                "Dutiful",
+                "Responsible"
+            ],
+            "weaknesses": [
+                "Inflexible",
+                "Unimaginative",
+                "Judgmental"
+            ],
+            "characterName": "Cyclops",
+            "imageURL": "http//localhost:8088/ISTJ.png"
+        },
+        {
+            "type": "ENFP",
+            "description": "The Champion - ENFPs are enthusiastic, creative, and sociable individuals who are driven by their curiosity and desire for novelty. They are imaginative and empathetic, with a passion for exploring possibilities and inspiring others.",
+            "strengths": [
+                "Enthusiastic",
+                "Empathetic",
+                "Creative"
+            ],
+            "weaknesses": [
+                "Overly Idealistic",
+                "Disorganized",
+                "Easily Stressed"
+            ],
+            "characterName": "Kitty Pride",
+            "imageURL": "http//localhost:8088/ENFP.png"
+        },
+        {
+            "type": "ENTP",
+            "description": "The Visionary - ENTPs are innovative thinkers who are driven by their curiosity and desire to explore new ideas and possibilities. They are energetic and resourceful problem-solvers who enjoy debating and challenging the status quo.",
+            "strengths": [
+                "Innovative",
+                "Curious",
+                "Debater"
+            ],
+            "weaknesses": [
+                "Argumentative",
+                "Insensitive",
+                "Easily Bored"
+            ],
+            "characterName": "Sunspot",
+            "imageURL": "http//localhost:8088/ENTP.png"
+        },
+        {
+            "type": "ESFP",
+            "description": "The Performer - ESFPs are outgoing, friendly, and enthusiastic individuals who enjoy being the center of attention. They are spontaneous and playful, with a zest for life and a love of new experiences.",
+            "strengths": [
+                "Enthusiastic",
+                "Spontaneous",
+                "Optimistic"
+            ],
+            "weaknesses": [
+                "Easily Bored",
+                "Impulsive",
+                "Disorganized"
+            ],
+            "characterName": "Jubilee",
+            "imageURL": "http//localhost:8088/ESFP.png"
+        },
+        {
+            "type": "ESTP",
+            "description": "The Dynamo - ESTPs are energetic thrill-seekers who are spontaneous and adaptable. They are enthusiastic problem-solvers who enjoy being in the thick of the action and living life to the fullest.",
+            "strengths": [
+                "Energetic",
+                "Adaptable",
+                "Bold"
+            ],
+            "weaknesses": [
+                "Insensitive",
+                "Impulsive",
+                "Unpredictable"
+            ],
+            "characterName": "Gambit",
+            "imageURL": "http//localhost:8088/ESTP.png"
+        },
+        {
+            "type": "INFP",
+            "description": "The Mediator - INFPs are imaginative idealists who are guided by their deeply-held values and a desire for authenticity. They are empathetic and creative, with a strong sense of morality and a passion for personal growth.",
+            "strengths": [
+                "Idealistic",
+                "Empathetic",
+                "Creative"
+            ],
+            "weaknesses": [
+                "Overly Idealistic",
+                "Self-critical",
+                "Avoids Conflict"
+            ],
+            "characterName": "Rogue",
+            "imageURL": "http//localhost:8088/INFP.png"
+        },
+        {
+            "type": "INTP",
+            "description": "The Thinker - INTPs are analytical problem-solvers who are fascinated by complex systems and theoretical concepts. They are independent and inventive thinkers who enjoy exploring new ideas and pushing the boundaries of knowledge.",
+            "strengths": [
+                "Innovative",
+                "Analytical",
+                "Objective"
+            ],
+            "weaknesses": [
+                "Absent-minded",
+                "Condescending",
+                "Insensitive"
+            ],
+            "characterName": "Beast",
+            "imageURL": "http//localhost:8088/INTP.png"
+        },
+        {
+            "type": "ISFP",
+            "characterName": "Nightcrawler",
+            "description": "The Composer - ISFPs are gentle caretakers who live in the present moment and enjoy their surroundings with cheerful, low-key enthusiasm. They are flexible and spontaneous and prefer to go with the flow to enjoy what life has to offer.",
+            "strengths": [
+                "Sensitive",
+                "Harmonious",
+                "Adaptable"
+            ],
+            "weaknesses": [
+                "Humble",
+                "Reserved",
+                "Easily Stressed"
+            ],
+            "imageURL": "http//localhost:8088/ISFP.png"
+        },
+        {
+            "type": "ISTP",
+            "description": "The Crafter - ISTPs are practical, realistic, and matter-of-fact individuals with a keen sense of adventure. They are adaptable, resourceful problem-solvers who enjoy hands-on work and new experiences.",
+            "strengths": [
+                "Adaptable",
+                "Resourceful",
+                "Pragmatic"
+            ],
+            "weaknesses": [
+                "Insensitive",
+                "Risk-prone",
+                "Unpredictable"
+            ],
+            "characterName": "Wolverine",
+            "imageURL": "http//localhost:8088/ISTP.png"
+        }
+    ]
+}
