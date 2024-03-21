@@ -14,4 +14,13 @@ router.get("/", (req, res) => {
   res.json(question);
 });
 
+
+router.post("/", (req, res) => {
+    const response = {
+        character: nameChar,
+        image: image,
+        description: description,
+    }
+})
+
 module.exports = router;
