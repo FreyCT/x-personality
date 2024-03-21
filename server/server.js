@@ -6,7 +6,10 @@ const PORT = 8088;
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static("/images"));
+
+app.use(express.static("images"));
+
+
 app.get("/", (req, res) => {
   res.send("It's working!");
 });
