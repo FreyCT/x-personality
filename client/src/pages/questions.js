@@ -7,12 +7,12 @@ const Questions = () => {
     const [questions, setquestions] = useState();
     
     useEffect(() => {
-        (async () => {
-            const questions = await axios.get("//localhost:8088/questions");
-            setquestions(questions.data)
-            console.log(questions);
-            setquestion({...questions.data[0]});
-        })()
+        // (async () => {
+        //     const questions = await axios.get("//localhost:8088/questions");
+        //     setquestions(questions.data)
+        //     console.log(questions);
+        //     setquestion({...questions.data[0]});
+        // })()
     }, [questions]);
 
     return question && (

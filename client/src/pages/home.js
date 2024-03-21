@@ -6,10 +6,10 @@ const Home = () => {
     const [images, setImages] = useState();
     
     useEffect(() => {
-        (async () => {
-            const res = await axios.get('//localhost:8088/images');
-            setImages(res.data);
-        })()
+        // (async () => {
+        //     const res = await axios.get('//localhost:8088/images');
+        //     setImages(res.data);
+        // })()
     }, [images]);
 
     return true && (
