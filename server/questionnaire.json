@@ -1,0 +1,67 @@
+[
+  {
+    "question": "Do you feel comfortable in large social gatherings?",
+    "dimension": "E/I"
+  },
+  {
+    "question": "Do you prefer to spend time alone or with others?",
+    "dimension": "E/I"
+  },
+  {
+    "question": "Are you energized by social interactions or do they drain you?",
+    "dimension": "E/I"
+  },
+  {
+    "question": "Do you often initiate conversations with new people?",
+    "dimension": "E/I"
+  },
+  {
+    "question": "Are you more focused on details or the big picture?",
+    "dimension": "S/N"
+  },
+  {
+    "question": "Do you trust your gut instincts when making decisions?",
+    "dimension": "S/N"
+  },
+  {
+    "question": "Do you enjoy exploring abstract concepts and theories?",
+    "dimension": "S/N"
+  },
+  {
+    "question": "Are you more observant of your surroundings or lost in your thoughts?",
+    "dimension": "S/N"
+  },
+  {
+    "question": "Do you prioritize logical reasoning over empathetic understanding?",
+    "dimension": "T/F"
+  },
+  {
+    "question": "Do you prefer to analyze situations objectively or consider people's feelings?",
+    "dimension": "T/F"
+  },
+  {
+    "question": "Are you more likely to offer advice based on facts or emotions?",
+    "dimension": "T/F"
+  },
+  {
+    "question": "Do you find it challenging to express your emotions verbally?",
+    "dimension": "T/F"
+  },
+  {
+    "question": "Do you prefer to follow a strict schedule or keep your options open?",
+    "dimension": "J/P"
+  },
+  {
+    "question": "Are you organized and methodical in your approach to tasks?",
+    "dimension": "J/P"
+  },
+  {
+    "question": "Do you enjoy making plans and sticking to them?",
+    "dimension": "J/P"
+  },
+  {
+    "question": "Are you comfortable with last-minute changes to your plans?",
+    "dimension": "J/P"
+  }
+]
+
