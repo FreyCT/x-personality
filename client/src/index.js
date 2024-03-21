@@ -1,26 +1,12 @@
-import App from './app/App';
-// import { Header } from './components/components';
-import Home from './pages/home';
-import Questions from './pages/home';
-import About from './pages/home';
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <App>
-            <BrowserRouter>
-                {/* <Header></Header> */}
-                <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path="/questions" element={<Questions />} />
-                    <Route path="/about" element={<About />} />
-                </Routes>
-            </BrowserRouter>
-        </App>
+        <App />
     </React.StrictMode>
 );
 
