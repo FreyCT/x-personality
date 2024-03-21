@@ -1,11 +1,15 @@
+import "./Header.scss";
+
 export default function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <h1>X-Personality</h1>
+        <a href="/">
+          <h1>X-Personality</h1>
+        </a>
       </div>
       <div className="nav--links">
-        <ul>
+        <ul className="links">
           <a href="/">
             <li>About Us</li>
           </a>

@@ -3,12 +3,15 @@ import Questions from './pages/questions';
 import About from './pages/home';
 import Header from './components/header/Header';
 import React from 'react';
+import './App.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ImgCard from './components/imgCard/ImgCard';
 const App = (props) => (
 
     <div className="App">
         <BrowserRouter>
             <Header />
+            
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path="/questions" element={<Questions />} />
