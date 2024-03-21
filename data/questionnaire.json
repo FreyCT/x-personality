@@ -1,0 +1,18 @@
+[
+    {
+      "question": "Do you feel comfortable in large social gatherings?",
+      "dimension": ["E","I"]
+    },
+    {
+      "question": "Are you more focused on details or the big picture? ('Yes' for details, 'No' for big picture)",
+      "dimension": ["S","N"]
+    },
+    {
+      "question": "Do you prioritize logical reasoning over empathetic understanding?",
+      "dimension": ["T","F"]
+    },
+    {
+      "question": "Do you prefer to follow a strict schedule or keep your options open?",
+      "dimension": ["J","P"]
+    }
+  ]
